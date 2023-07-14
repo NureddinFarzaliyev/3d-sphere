@@ -1,0 +1,41 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  overflow: hidden;
+}
+
+canvas{
+  position: absolute;
+  z-index: 5;
+}
+
+
+h1, a{
+  position: absolute;
+  color: white;
+  z-index: 10;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  left: 0px; right: 0px;
+  margin: auto;
+  top: 85%;
+}
+
+a{
+  top: 92%;
+  opacity: .3;
+  text-decoration: none;
+  transition-duration: .5s;
+  transition-property: opacity;
+}
+
+a:hover{
+  opacity: 1;
+}
+
+.text{
+  text-align: center;
+}
